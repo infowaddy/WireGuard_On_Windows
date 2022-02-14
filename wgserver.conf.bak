@@ -1,0 +1,20 @@
+[Interface]
+# Server 
+PrivateKey = 8FfOpwBBvuPw6VJ8TpM+6PLTUiz1e9G5r/p8aAkWvHQ=
+ListenPort = 33969
+Address = 10.8.0.1/24
+
+[Peer]
+# Cloud VM as a client
+PublicKey = H6bUdi/Lbm0VXqYBHJK+Ec9m597xoLeBddvcIFCYJSQ=
+AllowedIPs = 10.8.0.2/32
+
+[Peer]
+# On-Primises laptop as a client
+PublicKey = IOJmPz0lJ51NxbyyP/muTTVdPP7kVRIkMnVLPg0O6Gc=
+AllowedIPs = 10.8.0.3/32
+
+[Peer]
+# Zin Mobile as a client
+PublicKey = 2CEzRohhy1yZpA2wZkQ1oKZQAt3e4Ogf64TFnfJO8ns=
+AllowedIPs = 10.8.0.4/32
