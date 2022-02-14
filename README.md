@@ -19,3 +19,6 @@ InstallWireGuardAdaptor.ps1
 # Take note
 If you want to place in different folder path or file name, please change those updated information inside PowerShell scripts file and batch file accordingly.
 
+# Read in blog
+https://zinminhtay.medium.com/wireguard-on-windows-server-6b4f85460d3
+
